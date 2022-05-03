@@ -5,6 +5,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH,HEIGTH))
+        pygame.display.set_caption('Zelthon')
         self.clock = pygame.time.Clock()
     
     def run(self):
